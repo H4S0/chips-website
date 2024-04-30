@@ -1,0 +1,48 @@
+.right-main-container .pored-cips1 {
+  position: absolute;
+  width: 15vh;
+  left: -55px;
+  rotate: 60deg;
+}
+
+.right-main-container .pored-cips2 {
+  position: absolute;
+  width: 15vh;
+  bottom: 0;
+  right: -55px;
+  rotate: 10deg;
+}
+
+.right-main-container .pored-cips3 {
+  position: absolute;
+  left: -85px;
+  width: 15vh;
+  bottom: 50%;
+} 
+
+.right-main-container .pored-cips4 {
+  position: absolute;
+  width: 15vh;
+  top: 0;
+  left: 90%;
+}
+
+.right-main-container .pored-cips5 {
+  position: absolute;
+  width: 15vh;
+  bottom: 0;
+  left: 0;
+} 
+
+.left-main-container .pored-cips6 {
+  position: absolute;
+  width: 15vh;
+  z-index: -2;
+  right: -250px;
+  rotate: 10deg;
+}
+
+.right-main-container .velikičips {
+  rotate: 10deg;
+  width: 500px;
+}
