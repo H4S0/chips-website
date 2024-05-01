@@ -14,7 +14,9 @@
   .main-container .left-main-container h5 {
     font-size: 80px;
   }
-
+  .social-media {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1034px) {
