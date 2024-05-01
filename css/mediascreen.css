@@ -1,0 +1,67 @@
+@media screen and (max-width:1083px ) {
+  body{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .left-main-container .pored-cips6 {
+   position: absolute;
+   top: -25px;
+   left: 0;
+   z-index: -5; 
+  }
+
+  .main-container .left-main-container h5 {
+    font-size: 80px;
+  }
+
+}
+
+@media screen and (max-width: 1034px) {
+  .social-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  body {
+    padding: 0;
+  }
+  
+  .list,
+  .social-media {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+    position: absolute;
+    right: 25px;
+  }
+  .logo a {
+    position: absolute;
+    left: 25px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-main-container {
+    margin-top: 30px;
+  }
+  
+  .right-main-container .velikičips {
+    width: 300px;
+  }
+  .right-main-container .pored-cips1,
+  .right-main-container .pored-cips2,
+  .right-main-container .pored-cips3,
+  .right-main-container .pored-cips4,
+  .right-main-container .pored-cips5{
+    width: 10vh;
+  }
+
+}
