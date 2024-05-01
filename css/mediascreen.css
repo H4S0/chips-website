@@ -19,12 +19,6 @@
   }
 }
 
-@media screen and (max-width: 1034px) {
-  .social-media {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 860px) {
   body {
     padding: 0;
