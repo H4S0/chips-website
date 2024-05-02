@@ -42,6 +42,13 @@
   rotate: 10deg;
 }
 
+.pored-cips7,
+.pored-cips8,
+.pored-cips9{
+  width: 30vh;
+  padding: 40px;
+}
+
 .right-main-container .velikičips {
   rotate: 10deg;
   width: 500px;
