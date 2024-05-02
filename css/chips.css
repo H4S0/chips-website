@@ -45,11 +45,35 @@
 .pored-cips7,
 .pored-cips8,
 .pored-cips9{
-  width: 30vh;
+  width: 300px;
   padding: 40px;
+  z-index: 5;
 }
 
 .right-main-container .velikičips {
   rotate: 10deg;
   width: 500px;
+}
+
+.pored-cips10 {
+  position: absolute;
+  width: 15vh;
+  rotate: 15deg;
+  top: 20%;
+  left: 0;
+}
+
+.pored-cips11 {
+  position: absolute;
+  width: 15vh;
+  rotate: 30deg;
+  right: 0;
+  top: 50%;
+}
+
+.about-chips-slika 
+.about-chips-left-slika
+.chips-zdjela {
+  width: 400px;
+  filter: drop-shadow(0 -5mm 8mm rgb(238, 129, 26));
 }
