@@ -1,14 +1,13 @@
 @media screen and (max-width:1083px ) {
-  body{
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  
   .left-main-container .pored-cips6 {
    position: absolute;
    top: -25px;
    left: 0;
    z-index: -5; 
+  }
+
+  .right-main-container .velikičips {
+    width: 300px;
   }
 
   .main-container .left-main-container h5 {
@@ -20,10 +19,7 @@
 }
 
 @media screen and (max-width: 860px) {
-  body {
-    padding: 0;
-  }
-  
+
   .list,
   .social-media {
     display: none;
