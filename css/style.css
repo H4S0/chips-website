@@ -104,6 +104,7 @@ body {
 
 .right-main-container {
   position: relative;
+  z-index: 1;
 }
 
 .right-main-container .krug {
@@ -155,7 +156,7 @@ body {
   text-align: center;
   margin-bottom: 0;
   color: #fff;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .main-container-chips-products p {
@@ -179,7 +180,7 @@ body {
 
 .about-chips {
   background: rgb(8, 175, 150);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0.9);
 }
 
 .about-chips-slika {
@@ -222,4 +223,36 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
+}
+
+.nature-track {
+  background-color: rgb(238, 199, 26);
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+}
+
+.nature-track .left-nature-track,
+.nature-track .right-nature-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.nature-track .left-nature-track i,
+.nature-track .right-nature-track i {
+  font-size: 50px;
+  color: rgb(129, 107, 6);
+}
+
+.nature-track .left-nature-track h5,
+.nature-track .right-nature-track h5 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(129, 107, 6);
+  font-weight: 800;
 }
