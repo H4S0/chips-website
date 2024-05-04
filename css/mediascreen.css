@@ -83,5 +83,9 @@
   .right-main-container .pored-cips5{
     width: 10vh;
   }
+  .about-chips-slika {
+    flex-direction: column;
+  }
+}
 
 }
