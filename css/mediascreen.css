@@ -1,3 +1,23 @@
+@media screen and (max-width: 1143px) {
+  .main-container .left-main-container h5 {
+    font-size: 90px;
+  }
+  .main-container .right-main-container .velikičips {
+    width: 380px;
+  }
+
+  .right-main-container{
+    z-index: 1;
+  }
+
+  .right-main-container .krug {
+    width: 400px;
+    height: 400px;
+    left: -10px;
+  }
+}
+
+
 @media screen and (max-width:1083px ) {
   .left-main-container .pored-cips6 {
    position: absolute;
