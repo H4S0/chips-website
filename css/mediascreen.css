@@ -47,7 +47,6 @@
 }
 
 @media screen and (max-width: 860px) {
-
   .list,
   .social-media {
     display: none;
@@ -86,6 +85,11 @@
   .about-chips-slika {
     flex-direction: column;
   }
-}
 
+  .about-chips-container
+  .about-chips-slika
+  .about-chips-right-slika
+  .item-text p {
+    font-size: 17px;
+  }
 }
