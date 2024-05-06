@@ -111,6 +111,8 @@ body {
 
 .main-container .left-main-container p {
   color: white;
+  font-weight: 330;
+  font-size: 20px;
 }
 
 
@@ -137,6 +139,13 @@ body {
   padding: 10px 25px;
   font-weight: bold;
   border-radius: 20px;
+  transition: all 0.3s ease-in;
+}
+
+.main-container .left-main-container .buttons .snack-now:hover,
+.main-container .left-main-container .buttons .buy-now:hover {
+  opacity: 0.8;
+  border: 1px solid rgb(238, 159, 6);
 }
 
 .main-container .left-main-container .buttons {
@@ -154,6 +163,7 @@ body {
   padding: 10px 25px;
   font-weight: bold;
   color: rgb(238, 199, 26);
+  transition: all 0.3s ease-in;
 }
 
 .main-container-chips-products {
@@ -176,7 +186,7 @@ body {
   font-size: 18px;
   text-align: center;
   z-index: 2;
-  font-weight: bold;
+  font-weight: 330;
 }
 
 .main-container-chips-products {
@@ -235,7 +245,7 @@ body {
 .about-chips-right-slika
 .item-text p {
   color: #fff;
-  font-weight: bold;
+  font-weight: 330;
   font-size: 20px;
 }
 
@@ -283,4 +293,86 @@ body {
     opacity: 1;
     transform: translateY(-30px);
   }
+}
+
+.shop {
+  margin-top: 150px;
+}
+
+.shop-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.shop-card {
+  background-color: rgb(8, 135, 121);
+  width: 280px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.shop-card .shop-chips-slika {
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18vh;
+}
+
+.bottom-shop-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.bottom-shop-card {
+  padding: 20px;
+}
+
+.bottom-shop-card .right-bot-shop-card i{
+  background-color:rgb(238, 199, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  font-size: 20px;
+  transition: all 0.3s ease-out;
+}
+
+.bottom-shop-card .right-bot-shop-card i:hover {
+  opacity: 0.8;
+  padding: 15px;
+}
+
+.left-bot-shop-card h5,
+.left-bot-shop-card p {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #fff;
+  padding: 5px;
+  line-height: 15px;
+}
+
+.left-bot-shop-card h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.left-bot-shop-card p {
+  font-weight: bold;
+  font-size: 23px;
 }
