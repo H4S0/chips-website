@@ -77,3 +77,21 @@
   width: 400px;
   filter: drop-shadow(0 -5mm 8mm rgb(238, 129, 26));
 }
+
+.pored-cips12,
+.pored-cips13 {
+  width: 15vh;
+  rotate: 25deg;
+}
+
+.pored-cips12 {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+.pored-cips13 {
+  position: absolute;
+  right:  50px;
+  bottom: 0;
+}
