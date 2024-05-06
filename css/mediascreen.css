@@ -51,15 +51,21 @@
   .social-media {
     display: none;
   }
+  .main-container-chips-products h5,
+  .about-chips-container h5{
+    font-size: 35px;
+  }
 
   .navbar-menu {
     display: block;
     position: absolute;
     right: 25px;
+    top: 15px;
   }
   .logo a {
     position: absolute;
     left: 25px;
+    top: 15px;
   }
 
   .main-container {
@@ -91,5 +97,11 @@
   .about-chips-right-slika
   .item-text p {
     font-size: 17px;
+  }
+  .main-container .left-main-container p{
+    font-size: 17px;
+  }
+  .shop-card {
+    margin-top: 20px;
   }
 }
