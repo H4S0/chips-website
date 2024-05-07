@@ -6,3 +6,12 @@ window.addEventListener('scroll', function() {
     header.classList.remove('shadow');
   }
 });
+
+function prikazimenu() {
+  let topNav = document.getElementById('navbar-list');
+	if (topNav.className === "navbar-list") {
+		topNav.className = 'active';
+	} else {
+		topNav.className = "navbar-list";
+	}
+}
