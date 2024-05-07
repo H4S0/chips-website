@@ -27,6 +27,14 @@
 
 
 @media screen and (max-width:1083px ) {
+  .contact-container .contact-main {
+    padding-left: 55px;
+  }
+
+  .contact-container .contact-main .right-contact-main .čiko {
+    width: 30vh;
+  }
+
   .left-main-container .pored-cips6 {
    position: absolute;
    top: -25px;
@@ -44,16 +52,34 @@
   .social-media {
     display: none;
   }
+  .pored-cips14 {
+    top: 15%;
+    left: 55px;
+  }
+  .pored-cips15 {
+    left: 50%;
+  }
 }
 
 @media screen and (max-width: 860px) {
-  .list,
-  .social-media {
-    display: none;
+  .contact-container .contact-main {
+    padding-left: 0px;
   }
-  .main-container-chips-products h5,
-  .about-chips-container h5{
-    font-size: 35px;
+
+  .contact-container .contact-main .right-contact-main .čiko {
+    width: 25vh;
+  }
+  
+  .contact-main {
+    flex-direction: column;
+  }  
+  .contact-container .contact-main .left-contact-main .top {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .navbar-list {
+    display: none;
   }
 
   .navbar-menu {
@@ -62,6 +88,36 @@
     right: 25px;
     top: 15px;
   }
+
+  .active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin-top: -55px;
+    padding: 25px;
+    left: 0;
+    background-color: rgb(8, 135, 121);
+    animation: izlaz 0.3s ease;
+  }
+
+  @keyframes izlaz {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: rotateY(50deg);
+    }   
+  }
+
+
+
+  .main-container-chips-products h5,
+  .about-chips-container h5{
+    font-size: 35px;
+  }
+
   .logo a {
     position: absolute;
     left: 25px;
@@ -103,5 +159,13 @@
   }
   .shop-card {
     margin-top: 20px;
+  }
+
+  .pored-cips14 {
+    top: 25%;
+    left: 60%;
+  }
+  .pored-cips15 {
+    left: 10px;
   }
 }
