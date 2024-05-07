@@ -1,42 +1,40 @@
-.right-main-container .pored-cips1 {
-  position: absolute;
+.right-main-container .pored-cips1,
+.right-main-container .pored-cips2,
+.right-main-container .pored-cips3,
+.right-main-container .pored-cips4,
+.right-main-container .pored-cips5,
+.left-main-container .pored-cips6 {
   width: 15vh;
+  position: absolute;
+}
+
+.right-main-container .pored-cips1 {
   left: -25px;
   rotate: 60deg;
 }
 
 .right-main-container .pored-cips2 {
-  position: absolute;
-  width: 15vh;
   bottom: 0;
   right: 0px;
   rotate: 10deg;
 }
 
 .right-main-container .pored-cips3 {
-  position: absolute;
   left: -55px;
-  width: 15vh;
   bottom: 50%;
 } 
 
 .right-main-container .pored-cips4 {
-  position: absolute;
-  width: 15vh;
   top: 0;
   left: 80%;
 }
 
 .right-main-container .pored-cips5 {
-  position: absolute;
-  width: 15vh;
   bottom: 0;
   left: 0;
 } 
 
 .left-main-container .pored-cips6 {
-  position: absolute;
-  width: 15vh;
   z-index: -2;
   right: -250px;
   rotate: 10deg;
@@ -55,17 +53,21 @@
   width: 450px;
 }
 
-.pored-cips10 {
+.pored-cips10,
+.pored-cips11,
+.pored-cips12,
+.pored-cips13 {
   position: absolute;
   width: 15vh;
+}
+
+.pored-cips10 {
   rotate: 15deg;
   top: 20%;
   left: 0;
 }
 
 .pored-cips11 {
-  position: absolute;
-  width: 15vh;
   rotate: 30deg;
   right: 0;
   top: 50%;
@@ -80,18 +82,31 @@
 
 .pored-cips12,
 .pored-cips13 {
-  width: 15vh;
   rotate: 25deg;
 }
 
 .pored-cips12 {
-  position: absolute;
   top: 0;
   left: 50px;
 }
 
 .pored-cips13 {
-  position: absolute;
   right:  50px;
   bottom: 0;
+}
+
+.pored-cips14,
+.pored-cips15 {
+  width: 10vh;
+  position: absolute;
+}
+
+.pored-cips14 {
+  top: 55px;
+  left: 20%;
+}
+
+.pored-cips15 {
+  right: 50%;
+  bottom: 20%;
 }
