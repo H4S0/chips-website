@@ -40,8 +40,9 @@ body {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  align-items: cen;
+  transition: all 0.3s ease;
 }
+
 
 .nav {
   padding-top: 35px;
@@ -140,6 +141,7 @@ body {
   font-weight: bold;
   border-radius: 20px;
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 
 .main-container .left-main-container .buttons .snack-now:hover,
@@ -164,6 +166,7 @@ body {
   font-weight: bold;
   color: rgb(238, 199, 26);
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 
 .main-container-chips-products {
@@ -327,6 +330,13 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 18vh;
+  transition: all 0.2s ease;
+}
+
+
+.shop-card .shop-chips-slika:hover {
+  width: 20vh;
+  padding: 10px;
 }
 
 .bottom-shop-card {
@@ -376,3 +386,93 @@ body {
   font-weight: bold;
   font-size: 23px;
 }
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.contact-container {
+  position: relative;
+  background-color: rgb(8, 135, 121);
+  border-radius: 35px;
+  width: 75%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-container h3 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-container .contact-main .left-contact-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-container .contact-main .right-contact-main .čiko {
+  width: 35vh;
+}
+
+.contact-container .contact-main .left-contact-main .top p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-container .contact-main .left-contact-main .bottom .naslov {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-container .contact-main .left-contact-main .bottom p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.contact-container .contact-main .left-contact-main .top a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.contact-container .contact-main .left-contact-main .top i {
+  color: rgb(238, 199, 0.1);
+  font-size: 22px;
+}
+
+.contact-container .contact-main .left-contact-main .top {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: first baseline;
+}
+
+.contact-container .contact-main .left-contact-main .top
+.top-right .top-right-naslov {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-container .contact-main .left-contact-main .top
+.top-right p {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
